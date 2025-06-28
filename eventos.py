@@ -1,36 +1,12 @@
-eventos = [
-    {
-        "nome": "Workshop de IA",
-        "data": "2025-07-15",
-        "tema": "Inteligência Artificial",
-        "participantes": [1, 2]
-    },
-    {
-        "nome": "Hackathon Web",
-        "data": "2025-08-01",
-        "tema": "Web",
-        "participantes": [2, 3]
-    },
-    {
-        "nome": "Workshop de IA",
-        "data": "2025-07-15",
-        "tema": "Inteligência Artificial",
-        "participantes": [1, 2]
-    },
-    {
-        "nome": "Hackathon Web",
-        "data": "2025-08-01",
-        "tema": "Web",
-        "participantes": [2, 3]
-    }
-]
+from eventos_dados import eventos_tech
 def criar_evento(nome, data, tema):
-    return {
+    event = {
         "nome": nome,
         "data": data,
         "tema": tema,
         "participantes": []
     }
+    eventos_tech.append(event)
 
 def listar_eventos(eventos):
     for e in eventos:
@@ -45,3 +21,4 @@ def listar_participantes_do_evento(evento):
         print(f"{p['nome']} ({p['codigo']})")
 
 criar_evento("Hackaton ético", "20/10", "Morais e ética na hora de agir")
+print(eventos_tech)
