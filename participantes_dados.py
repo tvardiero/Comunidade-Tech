@@ -1,6 +1,6 @@
 from participantes import participantes_ev
 
-def adicionar_participante(codigo, nome, email, preferencias):
+def adicionar_participante(codigo, nome, email, preferencias): #Função para verificar se participante já existe
     if codigo in participantes_ev:
         print(f"Participante com código '{codigo}' já existe.") 
         return
@@ -11,3 +11,4 @@ def adicionar_participante(codigo, nome, email, preferencias):
         "preferencias": preferencias
     }
     print(f"Participante '{nome}' adicionado com sucesso!")
+

@@ -1,26 +1,30 @@
-eventos_tech = [
-    {
+eventos_tech = {
+    
+    "WorkShop de IA" : {
         "nome": "Workshop de IA",
         "data": "2025-07-15",
         "tema": "Inteligência Artificial",
-        "participantes": [1, 2]
+        "participantes": [11, 22]
     },
-    {
+    
+    "Redes e sistemas" : {
         "nome": "Redes e sistemas",
         "data": "2025-08-01",
-        "tema": "Web",
-        "participantes": [2, 3]
+        "tema": "Conectividade virtual",
+        "participantes": [21, 32]
     },
-    {
-        "nome": "Workshop de IA",
-        "data": "2025-07-15",
+    
+    "Desenvolvimento e jogos" : {
+        "nome": "Desenvolvimento e jogos",
+        "data": "2025-08-15",
+        "tema": "Desenvolvimento para jogos",
+        "participantes": [13, 21]
+    },
+    
+    "Machine learning" : {
+        "nome": "Machine learning",
+        "data": "2025-09-01",
         "tema": "Inteligência Artificial",
-        "participantes": [1, 2]
-    },
-    {
-        "nome": "Hackathon Web",
-        "data": "2025-08-01",
-        "tema": "Web",
-        "participantes": [2, 3]
+        "participantes": [22, 31]
     }
-]
+}

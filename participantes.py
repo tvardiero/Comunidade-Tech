@@ -1,182 +1,42 @@
-participantes = [
-    {
-        "codigo": 1,
+participantes_ev = {
+
+        "11" : {"nome": "Ana Silva",
+        "email": "anaslv@email.com",
+        "preferencias": ["IA", "Segurança"]
+    },
+    
+        "21" : {
+        "nome": "Julio Andrade",
+        "email": "julioandrade@email.com",
+        "preferencias": ["Web"]
+    },
+    
+        "31" : {
+        "nome": "Carlos Dias",
+        "email": "carlosds@email.com",
+        "preferencias": ["Web", "IA"]
+    },
+    
+        "12" : {
+        "nome": "Bruna costa",
+        "email": "bruncacst@email.com",
+        "preferencias": ["IA", "Segurança"]
+    },
+        
+        "22" : {
+        "nome": "João Felipe",
+        "email": "joaoflp@email.com",
+        "preferencias": ["Web"]
+    },
+    
+        "32" : {
+        "nome": "Gustavo Mendes",
+        "email": "gustavomds@email.com",
+        "preferencias": ["Web", "IA"]
+    },
+    
+        13 : {
         "nome": "Ana Silva",
         "email": "ana@email.com",
         "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    },
-    {
-        "codigo": 1,
-        "nome": "Ana Silva",
-        "email": "ana@email.com",
-        "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    },
-    {
-        "codigo": 1,
-        "nome": "Ana Silva",
-        "email": "ana@email.com",
-        "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    },
-    {
-        "codigo": 1,
-        "nome": "Ana Silva",
-        "email": "ana@email.com",
-        "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    },
-    {
-        "codigo": 1,
-        "nome": "Ana Silva",
-        "email": "ana@email.com",
-        "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    },
-    {
-        "codigo": 1,
-        "nome": "Ana Silva",
-        "email": "ana@email.com",
-        "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    },
-    {
-        "codigo": 1,
-        "nome": "Ana Silva",
-        "email": "ana@email.com",
-        "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    },
-    {
-        "codigo": 1,
-        "nome": "Ana Silva",
-        "email": "ana@email.com",
-        "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    },
-    {
-        "codigo": 1,
-        "nome": "Ana Silva",
-        "email": "ana@email.com",
-        "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    },
-    {
-        "codigo": 1,
-        "nome": "Ana Silva",
-        "email": "ana@email.com",
-        "preferencias": ["IA", "Segurança"]
-    },
-    {
-        "codigo": 2,
-        "nome": "Bruno Costa",
-        "email": "bruno@email.com",
-        "preferencias": ["Web"]
-    },
-    {
-        "codigo": 3,
-        "nome": "Carlos Dias",
-        "email": "carlos@email.com",
-        "preferencias": ["Web", "IA"]
-    }
-]
+    }}
