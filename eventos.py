@@ -1,4 +1,5 @@
-from eventos_dados import eventos_tech
+from eventos_dados import eventos_base
+eventos_tech = []
 
 def criar_evento(nome, data, tema):
     event = {
@@ -7,19 +8,39 @@ def criar_evento(nome, data, tema):
         "tema": tema,
         "participantes": []
     }
-    eventos_tech.append(event)
+    eventos_add.append(event)
 
-def listar_eventos(eventos):
-    for e in eventos:
+def listar_eventos():
+    for e in eventos_tech:
         print(f"{e['nome']} - {e['data']} - Tema: {e['tema']}")
 
-def add_particip_ev(evento, codigo_participante):
-    if codigo_participante not in evento["participantes"]:
-        evento["participantes"].append(codigo_participante) 
+def adicionar_participante_em_evento(eventos, participantes, nome_evento, codigo_participante):
+    # Verifica se o participante existe
+    if codigo_participante not in participantes:
+        print("Participante não encontrado.")
+        return
+
+    # Procura o evento na lista
+    for evento in eventos:
+        if evento["nome"] == nome_evento:
+            if codigo_participante in evento["participantes"]:
+                print("Participante já está inscrito neste evento.")
+            else:
+                evento["participantes"].append(codigo_participante)
+                print("Participante adicionado com sucesso ao evento.")
+            return
+
+    # Se não encontrar o evento
+    print("Evento não encontrado.")
     
 
-criar_evento("Hackaton ético", "20/10", "Morais e ética na hora de agir")
-print(eventos_tech)
+# criar_evento("Hackaton ético", "20/10", "Ética na hora de agir")
+# print(eventos_tech)
 
-add_particip_ev("Redes e sistemas", 55)
+
+
+
+
+
+
 
